@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spently Privacy Policy</title>
+  <meta name="description" content="How Spently handles financial records, optional iCloud sync, on-device AI, location lookups, App Store purchases and your privacy choices.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <a class="brand" href="./"><span class="mark" aria-hidden="true"></span>Spently</a>
+  <nav>
+    <a href="./">Support</a>
+    <a href="privacy.html" aria-current="page">Privacy</a>
+  </nav>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Effective October 5, 2026 · Last updated October 5, 2026 · Applies to the current Spently 1.0 app for iPhone</p>
+
+<div class="summary">
+  <p><strong>The short version.</strong> Spently does not require a Spently account and includes no advertising, tracking or third-party analytics SDKs. Your financial records are stored on your iPhone and synced to your private iCloud database when iCloud Sync is enabled.</p>
+  <p>The developer does not operate a server that receives your entries, receipt images or voice recordings. Voice transcription, receipt recognition and the app's AI processing run on your device. Text transcripts may be saved with entries or drafts.</p>
+  <p>Some features use external services: Apple provides iCloud, Maps, Siri and App Store purchases; ExchangeRate-API provides exchange rates. These services can receive the information described below. Information you choose to email for support is also received by the developer.</p>
+</div>
+
+<div class="toc">
+  <ol>
+    <li><a href="#who">Who is responsible</a></li>
+    <li><a href="#stored">What Spently stores</a></li>
+    <li><a href="#where">Where it is stored</a></li>
+    <li><a href="#not-collected">Advertising and analytics</a></li>
+    <li><a href="#features">Features and the data they use</a></li>
+    <li><a href="#permissions">Permissions</a></li>
+    <li><a href="#third-parties">External services</a></li>
+    <li><a href="#retention">Retention and deletion</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#children">Children</a></li>
+    <li><a href="#rights">Your choices and rights</a></li>
+    <li><a href="#changes">Changes to this policy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</div>
+
+<h2 id="who">1. Who is responsible</h2>
+<p>Spently is developed and published by Andi Rrashi, an independent developer. Contact <a href="mailto:andirrashi@gmail.com?subject=Spently%20privacy">andirrashi@gmail.com</a> with privacy questions or requests. Apple and the other services named below handle information they receive under their own privacy policies.</p>
+
+<h2 id="stored">2. What Spently stores</h2>
+<p>To provide its features, Spently stores information you enter and information generated as you use the app:</p>
+<ul>
+  <li><strong>Financial records</strong>: expenses and income, amounts, currencies, dates, categories, subcategories, merchants or payees, notes, entry sources and recurring or installment details. Saved entries may contain text extracted from receipts.</li>
+  <li><strong>Voice transcripts and drafts</strong>: the text of spoken entries can be saved with a record. Siri entries that need your review are kept locally with their amounts, dates, categories, notes and transcripts until their review is closed.</li>
+  <li><strong>Categories and preferences</strong>: category names, emoji, ordering, currencies, exchange rates, appearance, onboarding choices and other settings. Suggestions are derived locally from your existing entries.</li>
+  <li><strong>Optional location information</strong>: coordinates and a place name attached to an entry when location recording is enabled. Travel-currency preferences include the detected or accepted country, selected currency, last check time and time zone.</li>
+  <li><strong>Pro access</strong>: the app reads verified purchase information from Apple to determine subscription or lifetime access, expiration and renewal status. It caches whether Pro was last active on this device.</li>
+  <li><strong>Free-use counters</strong>: the number of free questions used and receipt scans used in the current calendar month. These are stored locally to apply the free allowances, not sent to an analytics service.</li>
+  <li><strong>Widget summaries</strong>: selected totals, recent and upcoming entries, category information and display settings used by the widgets.</li>
+</ul>
+<p>Spently does not connect to your bank or ask you to enter bank credentials. Payment information for Pro is handled by Apple. If you email support, the developer receives your email address and the contents and attachments you choose to send.</p>
+
+<h2 id="where">3. Where it is stored</h2>
+<ul>
+  <li><strong>On your iPhone</strong>: the app's database and preferences hold your records, settings, pending reviews and local counters. The app also uses temporary working data while processing input.</li>
+  <li><strong>In your private iCloud database</strong>: when iCloud Sync is enabled and available, CloudKit syncs entries, categories and repeating rules, including associated transcripts and saved locations. Sync is enabled by default. You can turn it off in Settings › Data Management; the change takes effect after restarting the app. Turning it off does not delete data already in iCloud. The developer does not receive a copy of this private database.</li>
+  <li><strong>In shared storage for widgets</strong>: Spently writes a local summary to an App Group container used by the app and its widgets. This is separate from the main financial database.</li>
+  <li><strong>In exported files</strong>: a JSON backup includes entries, categories, repeating rules, transcripts, saved locations and selected currency/display settings. It is not a complete copy of every local preference, pending draft, purchase record or free-use counter. CSV export contains a spreadsheet representation of your entries. Files go to the destination you choose, including a cloud provider if you select one.</li>
+  <li><strong>In device backups</strong>: iOS or computer backups may retain app data according to your device backup settings. These backups are separate from Spently's iCloud Sync and manual export features.</li>
+</ul>
+
+<h2 id="not-collected">4. Advertising and analytics</h2>
+<p>Spently does not include advertising, advertising identifiers, cross-app tracking or third-party analytics and crash-reporting SDKs. It does not send your financial history or local free-use counters to a developer-operated backend.</p>
+<p>Apple may process App Store purchases, platform diagnostics and usage information under your Apple settings and its own policies. Apple may make reports available to the developer through its developer services. Those reports are separate from your private financial database. External network services also receive connection information as described below.</p>
+
+<h2 id="features">5. Features and the data they use</h2>
+
+<h3>Voice entry</h3>
+<p>The in-app microphone captures audio for on-device transcription using Apple's speech framework. Spently does not retain an audio recording as part of your entry or upload that recording to the developer or a cloud AI service. iOS may need to download a speech model before transcription works. The resulting text is processed locally and can be stored with a saved entry or pending review. Siri is a separate service described below.</p>
+
+<h3>Apple Intelligence and local suggestions</h3>
+<p>Where available, Spently uses Apple's on-device model to interpret entries, receipts and spending questions and to help with categorization. The current app does not use Private Cloud Compute or another cloud AI provider. Spently also derives category suggestions locally from your existing entries.</p>
+<p>Apple Intelligence requires a supported device, language and configuration with the model ready to use. Pro does not make Apple Intelligence available on an unsupported device. If the model is unavailable, the app uses its built-in rules; some advanced interpretation and receipt-categorization features will be unavailable or more limited.</p>
+
+<h3>Receipt scanning</h3>
+<p>Spently processes camera images or photos you select to recognize receipt text on your iPhone. The system photo picker shares the selected image without granting access to your entire photo library. Images are used during scanning and review; Spently does not keep them as permanent receipt attachments. The original photo in your Photos library is not deleted by Spently. Information you save from the receipt becomes part of your financial records.</p>
+
+<h3>Location and travel currency</h3>
+<p>Saving a location with an entry is off until you enable it. With permission, Spently obtains a location when an entry is added and can store the coordinates and a readable place name with the entry. To resolve a place name, it sends the coordinates to Apple Maps through reverse geocoding.</p>
+<p>The travel-currency feature is controlled separately in Currencies. When enabled and location permission is available, it obtains a coarse location and uses Apple Maps to identify the country. Checks are normally spaced about an hour apart, with additional checks when the time zone changes or a lookup is retried. Country/currency preferences and check metadata are saved locally. Spently does not maintain a separate route or continuous location-history record.</p>
+<p>You can turn off entry-location recording and travel-currency detection separately. To deny all app location access, use the iPhone's Settings app. Turning off a feature does not remove locations already saved with entries. An operation already in progress may finish after an in-app setting is changed.</p>
+
+<h3>Siri and Shortcuts</h3>
+<p>When you use Siri, Apple processes your request according to its Siri privacy settings and policies. Spently receives text from the request and can return a response to Siri. Within Spently, parsing and spending calculations occur on the device. Entries that cannot be completed immediately may be stored as pending reviews, including their transcripts. Open the app and save or dismiss each review to remove that pending draft.</p>
+
+<h3>Widgets and app lock</h3>
+<p>Widgets use the locally stored summary described above. Pro widgets can show financial information outside the app. Without Pro, restricted widgets use sample content. When app lock is enabled, the app is designed to replace personal widget data with a locked summary; widget updates are controlled in part by iOS and may not appear immediately. Use your iPhone's Lock Screen and widget privacy settings to control what can be displayed outside the app.</p>
+<p>App lock uses iOS authentication, such as Face ID, Touch ID or the device passcode. Spently does not receive your biometric data or passcode. It stores lock preferences and timing information locally to apply the selected delay. App lock is an access-control feature, not separate encryption for exported files.</p>
+
+<h3>Exchange rates</h3>
+<p>When automatic updates are enabled, Spently periodically downloads public exchange rates from <code>open.er-api.com</code>, normally once a day. You can also request an update manually. The request does not include your entries, balances, transcripts or saved locations. As with any network connection, the provider receives your IP address and ordinary request details. Its <a href="https://www.exchangerate-api.com/terms">Terms of Service and Privacy Policy</a> describe its handling of information.</p>
+<p>Turn off automatic updates in Settings › Currencies › Exchange Rates to stop scheduled rate requests. You can enter rates manually. This setting does not stop iCloud, Maps, StoreKit, model downloads or other Apple services used by separate features.</p>
+
+<h3>Spently Pro and purchases</h3>
+<p>Subscriptions and lifetime purchases are processed by Apple through the App Store. Apple handles billing and payment details. Spently uses StoreKit transaction and entitlement information to unlock features, check renewal or expiration status and restore purchases. Your financial entries are not sent to Apple as part of a Pro purchase.</p>
+<p>Apple retains purchase records under its own policies. Deleting Spently or erasing entries does not cancel a subscription or delete Apple's purchase history. Manage or cancel subscriptions through your Apple Account's subscription settings. Restoring purchases reconnects the app to eligible purchases associated with that Apple Account.</p>
+<p>Free receipt-scan and question allowances are counted in local preferences. They are separate from Apple-managed subscription trials. The current limits are five free receipt scans per calendar month and ten free questions in total on the local counter.</p>
+
+<h3>Moving from earlier test versions</h3>
+<p>Spently replaces the earlier Budgtr test app. The renamed app uses separate app storage and a new private iCloud container. It does not automatically read or remove the earlier app's local or iCloud records. You can choose to export a compatible backup from the earlier app and restore it in Spently. Imported records are stored in Spently and may sync to Spently's private iCloud database when sync is enabled.</p>
+<p>Restoring a backup does not delete the original file or the records in the earlier app. Manage those copies separately after checking the restored data. Financial-data backups do not transfer App Store purchases, pending Siri reviews or free-use counters from the earlier app.</p>
+
+<h3>iCloud, backups and file access</h3>
+<p>CloudKit communicates with Apple to sync your records and may use silent push notifications. Turning sync off stops future syncing after the app restarts but does not remove existing cloud copies. Import and export use the system file picker. Accessing files through iCloud Drive or another provider also involves that provider under your chosen settings.</p>
+
+<h2 id="permissions">6. Permissions</h2>
+<table>
+  <thead><tr><th scope="col">Permission or feature</th><th scope="col">Purpose and control</th></tr></thead>
+  <tbody>
+    <tr><td>Microphone and Speech Recognition</td><td>Requested for voice input. Change access in the iPhone's Settings app. Typed entry remains available.</td></tr>
+    <tr><td>Camera</td><td>Requested for photographing receipts. You may choose an existing image instead.</td></tr>
+    <tr><td>Location While Using the App</td><td>Used for optional entry locations and travel-currency detection. Revoke location permission in the iPhone's Settings app or control the features separately in Spently.</td></tr>
+    <tr><td>Photos</td><td>Spently uses the system picker for images you select. It does not request full photo-library access.</td></tr>
+    <tr><td>Face ID or device authentication</td><td>Used when you enable app lock. Authentication is performed by iOS.</td></tr>
+    <tr><td>Notifications</td><td>The current app does not request permission for visible notifications. CloudKit uses silent background notifications for sync.</td></tr>
+  </tbody>
+</table>
+<p>Denying optional permissions does not prevent basic manual expense and income tracking. It limits the features that require those permissions.</p>
+
+<h2 id="third-parties">7. External services</h2>
+<ul>
+  <li><strong>Apple</strong>: CloudKit and device backups where enabled; Maps for coordinate lookups; Siri for Siri requests; speech/model downloads; App Store payments, purchase verification and platform diagnostics. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> and the privacy information for the relevant service in your device settings.</li>
+  <li><strong>ExchangeRate-API</strong>: receives requests for public rates and network connection information. See its <a href="https://www.exchangerate-api.com/terms">Terms of Service and Privacy Policy</a>.</li>
+  <li><strong>Services you choose</strong>: your email provider and the developer's email provider process support correspondence. File-storage providers process exports and imports you choose to store with them. Opening a website link sends a normal web request to that site's host.</li>
+</ul>
+<p>Spently does not sell your financial records or share them for targeted advertising. External providers may process information outside your country and retain it under their own policies. The developer cannot erase records held independently by Apple or another provider on your behalf through the app.</p>
+
+<h2 id="retention">8. Retention and deletion</h2>
+<ul>
+  <li><strong>Saved entries</strong>: retained until deleted. Deleting an entry removes its associated saved transcript and location from the app's database. With iCloud Sync enabled, deletion is sent to your other synced devices when sync completes.</li>
+  <li><strong>Erase All Entries</strong>: in Settings › Data Management, this removes saved entries and repeating rules. It does not clear categories, all preferences, free-use counters, purchase history or pending Siri reviews. Categories can be deleted separately. Save or dismiss pending reviews to clear those drafts.</li>
+  <li><strong>Pending Siri reviews</strong>: remain in local preferences until their individual review is closed, whether saved or dismissed.</li>
+  <li><strong>Local preferences and counters</strong>: remain while the app's local data is retained. Removing the app normally removes its local data; offloading the app retains data. Device backups may preserve earlier copies.</li>
+  <li><strong>iCloud and device backups</strong>: uninstalling Spently does not itself erase cloud records or existing backups. Manage app storage and backups in your Apple Account's iCloud settings. To propagate entry deletions, erase them with sync enabled and allow sync to complete before uninstalling.</li>
+  <li><strong>Exports</strong>: exported backups and CSV files remain wherever you saved or shared them. Delete those copies separately. Changes inside Spently do not update previously exported files.</li>
+  <li><strong>Apple purchases</strong>: Apple manages transaction-history retention. Canceling or deleting the app does not remove those records.</li>
+  <li><strong>Support correspondence</strong>: your email address, messages and attachments are used to answer your request and handle related follow-up. You can request deletion using the contact address below, subject to any applicable record-retention obligations.</li>
+</ul>
+<p>Deleting data from one location does not automatically remove independently retained copies in exports, backups, email or provider records.</p>
+
+<h2 id="security">9. Security</h2>
+<p>Spently relies on iOS app isolation, device data protection and Apple's authentication and cloud services. Protect your iPhone and Apple Account with appropriate passcodes and account security settings. iCloud protection depends on Apple's service and your account configuration; this policy does not promise that every app field or backup is end-to-end encrypted.</p>
+<p>JSON backups and CSV exports are readable files without an additional Spently password or encryption layer. Their protection depends on where you store and share them. App lock does not protect an exported copy.</p>
+
+<h2 id="children">10. Children</h2>
+<p>Spently is a general-audience expense tracker and is not specifically directed at children under 13. It has no Spently registration system. If you believe a child has sent personal information to the developer through support, contact the address below so the request can be reviewed and the information removed where appropriate. Apple's family and purchase controls apply to App Store transactions.</p>
+
+<h2 id="rights">11. Your choices and rights</h2>
+<p>You can review and edit your financial records in the app, export supported data, delete entries and categories and control optional features and permissions. There is no separate Spently account to delete.</p>
+<p>Depending on your location and applicable law, you may have rights to access, correct, delete or receive a copy of personal information, restrict or object to its processing and withdraw consent where processing relies on consent. Contact the developer about information provided through support. The developer cannot retrieve your private on-device or iCloud financial database. Requests concerning independently held Apple or other provider records should also be directed to that provider.</p>
+<p>You may also have the right to complain to your local data protection authority. Please avoid sending financial records or other sensitive information by email unless needed for the support request; redact unrelated details first.</p>
+
+<h2 id="changes">12. Changes to this policy</h2>
+<p>This page describes the current app as of the date above. It will be updated when relevant data practices change. Material changes will be communicated through an appropriate notice, such as release notes or an in-app notice. Any consent required for a new use will be requested separately; continued use alone is not treated as consent to unrelated data processing.</p>
+
+<h2 id="contact">13. Contact</h2>
+<div class="contact">
+  <p><strong>Andi Rrashi</strong>, developer of Spently</p>
+  <p>Email: <a href="mailto:andirrashi@gmail.com?subject=Spently%20privacy">andirrashi@gmail.com</a></p>
+  <p>Support: <a href="./">Spently Support</a></p>
+</div>
+
+<footer class="site">
+  <p>Spently is developed by Andi Rrashi. <a href="./">Support</a> · <a href="mailto:andirrashi@gmail.com">Contact</a></p>
+</footer>
+
+</div>
+</body>
+</html>
