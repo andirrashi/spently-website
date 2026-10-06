@@ -46,8 +46,9 @@ header.site {
 header.site .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: var(--ink); }
 header.site .brand .mark {
   display: block; flex: 0 0 28px;
-  width: 28px; height: 28px; border-radius: 6.3px;
-  background: #111 url("brand-mark.png") center / contain no-repeat;
+  width: 28px; height: 28px; border-radius: 22.5%;
+  overflow: hidden;
+  background: #111 url("brand-mark.svg?v=20261006") center / contain no-repeat;
   box-shadow: inset 0 0 0 0.5px rgba(255, 255, 255, 0.25);
 }
 header.site nav a { margin-left: 18px; color: var(--muted); font-size: 15px; }
